@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #nav1{
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            align-items: center;
+            background-color: gray;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            height: 1000px;
+            width: 70%;
+            margin-left: 20%;
+        }
+        .container > div {
+            height: 400px;
+            width: 200px;
+            border: 1px solid black;
+            margin: 13px;
+        }
+
+        img{
+            height: 200px;
+            width: 160px;
+            margin: 15px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav id="nav1">
+        <div><h1>Product Listing Page</h1></div>
+        <div>men's clothing</div>
+        <div id="search"><input type="search" placeholder="Search Here"></div>
+        <div>Price:Low to High</div>
+    </nav>
+
+    <div class="container">
+        <div>
+            <img src="https://m.media-amazon.com/images/I/714g-hjkkqL._SX679_.jpg" alt="">
+            <h3>MOKOBARA </h3>
+            <p>Backpack 15.5" Inch Laptop Backpack For Women (16 litres) (2022 - Model)</p>
+            <h3>$ 123</h>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/71gxzNP0V3L._AC_UL480_FMwebp_QL65_.jpg" alt="">
+            <h3>Lymio</h3>
+            <p>Lymio Casual Shirt for Men|| Shirt for Men|| Men Stylish Shirt (Rib-Shirt)</p>
+            <h3>$ 425</h3>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/81Ko4mfS+AL._AC_UL480_FMwebp_QL65_.jpg" alt="">
+            <h3>Fas</h3>
+            <p>Fas + BHK01 Om Lord Shiv Ancient Dot Kada Bracelet for Men and Boys That Open Wrist Hand </p>
+            <h3>$ 124</h3>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/81dRV+F3rVL._SX679_.jpg" alt="">
+            <h3>SWADESI STUFF</h3>
+            <p>Regular Fit Striped Round Neck Half Sleeve 2 Line T-Shirt for Men</p>
+            <h3>$ 444</h3>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/4161rq5DKPL._AC_SR180,120_QL67_.jpg" alt="">
+            <h3>SWADESI STUFF</h3>
+            <p>Regular Fit Striped Round Neck Half Sleeve 2 Line T-Shirt for Men</p>
+            <h3>$ 444</h3>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/81BbesRlSHL._AC_UL480_FMwebp_QL65_.jpg" alt="">
+            <h3>MEENAZ</h3>
+            <p>Rudraksha Trishul Damroo Designer Oxidized Silver Rakhi Bahubali </p>
+            <h3>$ 277</h3>
+        </div>
+    </div>
+</body>
+</html>
